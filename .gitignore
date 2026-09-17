@@ -1,0 +1,115 @@
+# ==========================================
+# AI Surveillance System - Git Ignore
+# ==========================================
+
+# Node.js
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Metro
+.metro-health-check*
+
+# Native build folders
+/ios
+/android
+
+# Kotlin
+.kotlin/
+
+# React Native
+*.orig.*
+
+# Android signing files
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# JavaScript / npm logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# TypeScript
+*.tsbuildinfo
+
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python logs
+*.log
+
+# ==========================================
+# YOLO / AI Models
+# ==========================================
+
+# Ignore all PyTorch model files
+*.pt
+
+# Include the YOLO model required by this project
+!technozoa_project/yolov8n.pt
+
+# Ignore other AI model formats
+*.onnx
+*.weights
+
+# ==========================================
+# Generated Snapshots
+# ==========================================
+
+snapshots/
+
+# ==========================================
+# Camera / Video Files
+# ==========================================
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ==========================================
+# Environment / Secret Files
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# VS Code
+# ==========================================
+
+.vscode/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Other
+# ==========================================
+
+app-example
