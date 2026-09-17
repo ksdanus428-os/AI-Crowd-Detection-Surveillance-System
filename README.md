@@ -78,33 +78,7 @@ REAL-TIME MONITORING
 3. SYSTEM WORKFLOW
 --------------------------------------------------
 
-Camera
-   |
-   v
-OpenCV Video Capture
-   |
-   v
-YOLO Person Detection
-   |
-   v
-Person Tracking
-   |
-   v
-Distance Calculation
-   |
-   v
-Crowd Detection
-   |
-        - - - - - ->
-   |                   |
-   v                   v
-Snapshots          Flask REST API
-                       |
-                       v
-                React Native App
-                       |
-                       v
-                Mobile Dashboard
+Camera Feed → Frame Capture → YOLOv8 Person Detection → Person Tracking → Distance Calculation → Crowd Detection → Alert Generation → Flask API → React Native Dashboard
 
 --------------------------------------------------
 4. SYSTEM COMPONENTS
