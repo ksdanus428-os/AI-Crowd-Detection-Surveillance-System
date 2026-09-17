@@ -95,7 +95,7 @@ Distance Calculation
    v
 Crowd Detection
    |
-   +-------------------+
+        - - - - - ->
    |                   |
    v                   v
 Snapshots          Flask REST API
